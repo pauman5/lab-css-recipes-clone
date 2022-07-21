@@ -1,5 +1,11 @@
 * {
+
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-size: 16px;
 }
 
 .general {
@@ -9,25 +15,28 @@
 }
 
 header {
-    height: 170px;
-    width: 95%;
+    height: 600px;
+    width: 95vw;
     background-image: url(/apple-pie/images/apple-pie.jpg);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 header h1 {
     color: white;
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: 400;
 }
 
+#reciep-structure {
+    padding: 1.5rem 6rem 1.5rem 4rem ;
+}
+
 #description {
-    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -37,17 +46,17 @@ header h1 {
 }
 
 #description p {
-    font-size:  0.4rem;
+    font-size:  0.8rem;
+    line-height: 1.5;
     margin: 1.5rem 0 1rem 0;
 }
 
 #description img {
-    width: 9em;
+    width: 50%;
     padding-bottom: 0.5rem;
 }
 
 #ingredients {
-    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -59,12 +68,13 @@ header h1 {
 
 #ingredients h3 {
     margin: 1rem 0 0 0;
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 
 #ingredients ul {
-    font-size: 0.4rem;
-    margin-left: 0;
+    font-size:  0.8rem;
+    line-height: 1.5;
+    margin-left: 0rem;
     padding-left: 0.5rem;
     list-style: none;
     margin: 1.5rem 0 1rem 0;
@@ -77,11 +87,10 @@ header h1 {
 }
 
 #ingredients img {
-    width: 9rem;  
+    width: 50%;  
 }
 
 #directions {
-    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -92,13 +101,15 @@ header h1 {
 
 #directions h3 {
     margin: 1rem 0 0 0;
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 
-#directions ol {
-    font-size: 0.4rem;
+#directions ul {
+    font-size:  0.8rem;
+    line-height: 1.5;
     margin-left: 0;
     padding-left: 0.5rem;
     margin: 1.5rem 0 1rem 0;
+    list-style: none;
 }
 
